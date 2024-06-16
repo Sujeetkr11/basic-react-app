@@ -2,7 +2,8 @@ import React from 'react';
 import logo from './logo.svg';
 import './App.css';
 
-const Page = () => (
+function Page() {
+  return ( //make sure to add this
   <div>
     <h1>My Awesome React Web App</h1>
     <h3>Reasons I Love React</h3>
@@ -13,7 +14,7 @@ const Page = () => (
       <li>It's actively maintained by skilled people.</li>
     </ol>
   </div>
-);
+)}
 
 function App() {
   return (
