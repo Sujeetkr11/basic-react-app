@@ -1,23 +1,24 @@
+import React from 'react';
 import logo from './logo.svg';
 import './App.css';
+
+const Page = () => (
+  <div>
+    <h1>My Awesome React Web App</h1>
+    <h3>Reasons I Love React</h3>
+    <ol>
+      <li>It's composable.</li>
+      <li>It's declarative.</li>
+      <li>It's a hireable skill.</li>
+      <li>It's actively maintained by skilled people.</li>
+    </ol>
+  </div>
+);
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Page />
     </div>
   );
 }
