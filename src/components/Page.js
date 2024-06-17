@@ -1,17 +1,17 @@
 // Page.js
 import React from 'react';
+import ReasonList from './ReasonList';
+import FooterComponent from './FooterComponent';
+import NavbarComponent from './NavbarComponent';
 
 function Page() {
   return (
     <div>
+      <NavbarComponent />
       <h1>My Awesome React Web App</h1>
       <h3>Reasons I Love React</h3>
-      <ol>
-        <li>It's composable.</li>
-        <li>It's declarative.</li>
-        <li>It's a hireable skill.</li>
-        <li>It's actively maintained by skilled people.</li>
-      </ol>
+      <ReasonList />
+      <FooterComponent />
     </div>
   );
 }
