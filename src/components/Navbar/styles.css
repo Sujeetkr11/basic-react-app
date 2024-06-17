@@ -1,12 +1,13 @@
 
-    nav {
-        display: flex;
+    .nav {
+        display: flex; /* to bring inline img and ul */
         align-items: center; /* Vertically center items */
         justify-content: space-between; /* Space between logo and list */
     }
     
-    nav img {
+    .nav > img {
         margin-right: 900px; /* Add some space between the image and the list */
+        width: 60px;
     }
     
     nav ul {
