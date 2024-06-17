@@ -2,7 +2,7 @@
 import React from 'react';
 import ReasonList from './ReasonList';
 import FooterComponent from './FooterComponent';
-import NavbarComponent from './NavbarComponent';
+import NavbarComponent from './Navbar/NavbarComponent';
 
 function Page() {
   return (

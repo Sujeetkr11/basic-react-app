@@ -1,0 +1,29 @@
+
+    nav {
+        display: flex;
+        align-items: center; /* Vertically center items */
+        justify-content: space-between; /* Space between logo and list */
+    }
+    
+    nav img {
+        margin-right: 900px; /* Add some space between the image and the list */
+    }
+    
+    nav ul {
+        display: flex;
+        list-style-type: none; /* Remove bullets */
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li {
+        margin-left: 20px; /* Add space between list items */
+        margin-right: 40px;
+        color: white; /* Change text color to white */
+        cursor: pointer; /* Change cursor to pointer on hover */
+    }
+    
+    nav li:hover {
+        text-decoration: underline; /* Add underline effect on hover */
+    }
+    
